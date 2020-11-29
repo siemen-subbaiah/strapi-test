@@ -32,8 +32,8 @@ module.exports = {
           ? "https://test-demo-gatsby.herokuapp.com"
           : "http://localhost:1337",
         queryLimit: 1000,
-        contentTypes: [`jobs`, `projects`],
-        // singleTypes: [`About`],
+        contentTypes: [`jobs`, `projects`, `blogs`],
+        singleTypes: [`About`],
       },
     },
   ],
